@@ -1,0 +1,26 @@
+{
+    "environment": "pytest",
+    "version": "2.7",
+    "conda": [
+        {
+            "channel": "bokeh",
+            "package": "bokeh"
+        },
+        {
+            "channel": "dan_blanchard",
+            "package": "beautiful-soup"
+        },
+        {
+            "channel": "asmeurer",
+            "package": "colorama"
+        },
+        {
+            "channel": "anaconda",
+            "package": "boto nose mock coverage"
+        },
+        {
+            "channel": "asmeurer",
+            "package": "websocket-client"
+        }
+    ]
+}
