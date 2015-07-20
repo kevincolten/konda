@@ -47,5 +47,5 @@ Navigate to your project directory.
 * `konda init` Generates a _conda.json_ in the current directory if one doesn't exist
 * `konda install` Creates environement, activates the environment, installs all packages
 * `konda activate` Activates environment defined in _conda.json_
-* `konda update` Updates all packages listed in _conda.json_
+* `konda update` Updates/installs all packages listed in _conda.json_
 * `konda reset` Deletes environment, creates a new environment, reinstalls all packages
