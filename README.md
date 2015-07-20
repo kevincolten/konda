@@ -4,7 +4,7 @@
 `konda` is a [Conda](http://conda.pydata.org/docs/) environment manager built to be familiar with those who use other successful environment managers such as [RubyGems](https://rubygems.org/), [Composer](https://getcomposer.org/), [NPM](https://www.npmjs.com/), [Bower](http://bower.io/), etc.
 
 ## Some context
-Conda has an amazing feature that lets you [create multiple python enviroments](http://conda.pydata.org/docs/using/envs.html) with your preferred version of python and some cherry picked packages. The problem is that you have to set them up by hand: a new environment means re-installing all packages, usually from memory and/or error logs (you know it's true) and sharing the project with anyone else turns into a discussion about what dependencies were used and are extraneous.
+Conda has an amazing feature that lets you [create multiple python enviroments](http://conda.pydata.org/docs/using/envs.html) with your preferred version of python and some cherry picked packages. The problem is that you have to set them up by hand: a new environment means re-installing all packages, usually from memory and/or error logs (you know it's true) and sharing the project with anyone else turns into a discussion about what dependencies were used and which are extraneous.
 
 ## Installation
 1. `git clone git@github.com:mistakevin/konda.git` into your favorite directory.
