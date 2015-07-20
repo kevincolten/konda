@@ -7,9 +7,11 @@
 Conda has an amazing feature that lets you [create multiple python enviroments](http://conda.pydata.org/docs/using/envs.html) with your preferred version of python and some cherry picked packages. The problem is that you have to set them up by hand: a new environment means re-installing all packages, usually from memory and/or error logs (you know it's true) and sharing the project with anyone else turns into a discussion about what dependencies were used and which are extraneous.
 
 ## Installation
-1. `git clone git@github.com:mistakevin/konda.git` into your favorite directory.
-2. `alias konda='source [path to directory]/konda/konda.sh'`
-3. Profit
+1. With [npm](https://www.npmjs.com/) install [json](https://www.npmjs.com/package/json)
+  `sudo npm install -g json`
+2. `git clone git@github.com:mistakevin/konda.git` into your favorite directory.
+3. `alias konda='source [path to directory]/konda/konda.sh'`
+4. Profit
 
 ## Quick Start
 Navigate to your project directory.
